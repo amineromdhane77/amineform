@@ -1,14 +1,15 @@
 import React from "react";
 
 
-
+{/* importation du composants boostrap Carousel */}
 import Carousel from 'react-bootstrap/Carousel';
+{/* importation des images */}
 import i1 from "./image/1.jpg";
 import i2 from "./image/2.jpg";
 import i3 from "./image/2.jpg";
 
 
-
+{/* function header */}
 function Headerr(){
     return ( 
     <Carousel fade>
